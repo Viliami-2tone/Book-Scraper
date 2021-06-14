@@ -1,5 +1,6 @@
 const pageScraper = require('./pageScraper');
 const fs = require('fs');
+
 async function scrapeAll(browserInstance){
     let browser;
     try{
